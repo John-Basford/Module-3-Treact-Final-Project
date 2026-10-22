@@ -289,3 +289,53 @@ FEATURES
   line-height: 2;
   font-weight: 500;
 }
+
+/* 
+
+QUALITY
+
+*/
+
+#quality .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quality__description,
+.quality__img--wrapper {
+  width: 50%;
+}
+
+.quality__description {
+  max-width: 576px;
+  margin-right: 64px;
+}
+
+.section__tag {
+  font-size: 16px;
+  color: #6415ff;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#quality .section__title {
+  line-height: 1.25;
+}
+
+.section__title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  line-height: 1.5;
+  margin: 16px 0;
+  letter-spacing: 0.025em;
+}
+
+.section__para {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
+}
